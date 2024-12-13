@@ -1,0 +1,6 @@
+iteratig through dictionary
+for key, value in student.items():
+ print(key, value)
+name nandu
+age 17
+grade A
