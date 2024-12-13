@@ -1,0 +1,35 @@
+print("intersection:" , set1 & set2)
+intersection: {4, 5}
+print("difference:" , set1 - set2)
+difference: {1, 2, 3}
+list1=[1,2,3]
+list2=[4,5,6]
+merged_list=list1+list2
+print("mergedlist:",merged_list)
+mergedlist: [1, 2, 3, 4, 5, 6]
+student=[10,20,30,40,50]
+print("maximum:",max(numbers))
+print("minimum:",min(numbers))
+maximum: 6
+minimum: 1
+number = int(input("enter a number:"))
+reverse_number = 0
+temp = number
+while temp > 0:
+ digit = temp % 10
+ reverse_number = reverse_number * 10 + digit
+ temp //= 10
+if number == reverse_number:
+ print(f"{number} pali")
+else:
+ print(f"{number} not pali")
+enter a number:232
+232 pali
+numbers = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
+frequency = {}
+for num in numbers:
+ frequency[num] = frequency.get(num,0) + 1
+ print("frequency of elements:", frequency)
+frequency of elements: {1: 1}
+frequency of elements: {1: 1, 2: 1}
+frequency of elements: {1: 1, 2: 2}
